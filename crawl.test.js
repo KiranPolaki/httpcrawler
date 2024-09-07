@@ -77,7 +77,7 @@ test("Get absoluet & relative URls from HTML", () => {
   expect(actual).toEqual(expected);
 });
 
-test("Don't Get URLs that are invallid", () => {
+test("Dont Get URLs that are invallid", () => {
   const inputHTMLBody = `
   <html>
   <body>
